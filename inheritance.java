@@ -24,3 +24,15 @@ public class Student extends User{
         return g==group;
     }
 }
+
+public class Teacher extends User{
+    int salary;
+    
+    public Teacher(int age, String firstName, String lastName, int group) {
+        super(age, firstName, lastName);
+        this.salary = salary;
+    }
+    boolean GetSalary(int s){
+        return s==salary;
+    }
+}
