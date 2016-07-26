@@ -32,6 +32,7 @@ public class Teacher extends User{
         super(age, firstName, lastName);
         this.salary = salary;
     }
+    
     boolean GetSalary(int s){
         return s==salary;
     }
