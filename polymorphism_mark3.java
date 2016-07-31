@@ -71,3 +71,16 @@ public class Salary extends Employee
       return salary/52;
    }
 }
+
+public class VirtualDemo
+{
+   public static void main(String [] args)
+   {
+      Salary s = new Salary("Ivan Ivanovich", "Kiev", 3, 3600.00);
+      Employee e = new Salary("Petro Petrovich", "Cherkassy", 2, 2400.00);
+      System.out.println("Call mailCheck using Salary reference --");
+      s.mailCheck();
+      System.out.println("\n Call mailCheck using Employee reference--");
+      e.mailCheck();
+    }
+}
